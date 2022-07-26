@@ -23,6 +23,7 @@ table {
   border: 4px solid;
   border-radius: 15px;
   margin-bottom: 15px;
+  margin:auto;
 }
 
 td {
@@ -52,7 +53,7 @@ td {
 
 .x,
 .o {
-  font-family: cursive;
+  font-family: 'Times New Roman';
   font-size: 5em;
   margin: 0;
 }
@@ -107,7 +108,6 @@ tr:nth-of-type(3) td:nth-of-type(3) {
   font-size: 1.1em;
   text-align: center;
   background-color: #00000080;
-  /* color: #fffffff2; */
   cursor: pointer;
   display: none;
 }
@@ -117,8 +117,7 @@ tr:nth-of-type(3) td:nth-of-type(3) {
 }
 
 #sair:hover {
-  background-color: #163246;
-  /* color: #6b6b6b; */
+  background-color: #020e16;
   color: #f200ff;
 }
 
@@ -155,8 +154,7 @@ main div:last-of-type {
 
 .opcoes:hover,
 main div:last-of-type:hover {
-  background-color: #163246;
-  /* color: #6b6b6b; */
+  background-color: #020e16;
   color: #f200ff;
 
 }
