@@ -1,4 +1,3 @@
-window.onload = function () {
   // FUNCOES DO MENU ==============================================================
   let opcoes = document.querySelectorAll(`.opcoes`);
   // let sair = document.querySelector(`#sair`);
@@ -204,4 +203,3 @@ window.onload = function () {
     analisarJogadas(0, 4, 8, tipo);
     analisarJogadas(2, 4, 6, tipo);
   }
-};
