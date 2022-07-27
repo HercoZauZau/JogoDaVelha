@@ -5,18 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jogo da Velha</title>
     <link rel="stylesheet" href="style.css" />
-    
   </head>
   <body>
     <main>
-      <h1>Jogo da Velha</h1>
-      <div class="opcoes"><p>2 Jogadores</p></div>
-      <div class="opcoes"><p>1 Jogador (Fácil)</p></div>
-      <div class="opcoes"><p>1 Jogador (Normal)</p></div>
-      <div class="opcoes"><p>1 Jogador (Difícil)</p></div>
-      <div class="opcoes"><p>Iniciante (Usuário)</p></div>
+      <h1>JOGO DA VELHA</h1>
+      <div class="opcoes"><p>Jogador vs Jogador</p></div>
+      <div class="single"></div>
+      <p id="txtSingle">Jogador vs Computador</p>
+      <div class="opcoes"><p>Fácil</p></div>
+      <div class="opcoes"><p>Normal</p></div>
+      <div class="opcoes"><p>Difícil</p></div>
+      <div class="single"></div>
+      <div class="opcoes"><p>Iniciante (Jogador)</p></div>
     </main>
     <section>
+      <div id="patamar">
+        <div id="pX">X (0)</div>
+        <div id="pE">E! (0)</div>
+        <div id="pO">O (0)</div>
+      </div>
       <table>
         <tr>
           <td></td>
@@ -35,9 +42,10 @@
         </tr>
       </table>
       <div id="resultado"></div>
+      <div id="novoJogo"><p>Resetar</p></div>
       <div id="sair"><p>Sair</p></div>
     </section>
-    
+
     <script src="script.js"></script>
   </body>
 </html>
