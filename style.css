@@ -168,13 +168,6 @@ main div:last-of-type,
   cursor: pointer;
 }
 
-.opcoes:hover,
-main div:last-of-type:hover,
-#sair:hover,
-#novoJogo:hover {
-  color: #000000;
-  background-color: #ff3af3;
-}
 
 .single {
   height: 1px;
