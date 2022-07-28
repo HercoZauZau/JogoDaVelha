@@ -79,7 +79,7 @@ function processar(nrBloco) {
             nivel_III();
             break;
         }
-      }, 250);
+      }, 500);
     }
   }
 }
