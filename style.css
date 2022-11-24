@@ -1,5 +1,7 @@
 body {
-  user-select: none;
+   user-select: none; 
+    -webkit-user-select: none;
+    -moz-user-select: none;
   background-color: #1e1b32;
   /* background: linear-gradient(right, #403f44, #1e1b32); */
   /* background: -moz-linear-gradient(right, #403f44, #1e1b32); */
