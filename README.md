@@ -1,4 +1,4 @@
-# herco21.github.io/jogodavelha/
+# https://jogovelha.netlify.app/
 
 <div>
 <img align="center" alt="img" height="400" width="400" src="https://github.com/HercoZauZau/jogodavelha/blob/main/imagens/Screenshot%20(91).png">
